@@ -1,0 +1,89 @@
+.project-title {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	font-family: Yellowtail;
+	font-size: 40px;
+}
+
+.project-container {
+	background-color: #dfd9e2;
+	position: relative;
+	font-family: Roboto;
+	font-size: 18px;
+}
+
+.project-grid-container {
+	margin: auto;
+	width: 70%;
+	height: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: #dfd9e2;
+	text-align: center;
+}
+
+.photo-description {
+	color: #888;
+}
+
+.info-box-one {
+	text-align: left;
+}
+
+.info-box-two {
+	text-align: left;
+}
+
+.info-box-three {
+	text-align: left;
+}
+
+.info-box-four {
+	text-align: left;
+}
+
+.pic-one {
+	width: 100%;
+	display: flex;
+}
+
+.pic-one img {
+	padding-left: 10px;
+}
+
+.pic-two {
+	width: 100%;
+}
+
+@media (max-width: 1000px) {
+	#img1, #crone1, #crone2, #crone3, #croneb4, #anna1, #anna2 {
+		height: 250px;
+		width: 350px;
+	}
+}
+
+@media (max-width: 600px) {
+	#img1, #crone1, #crone2, #crone3, #croneb4, #crone4, #anna1, #anna2, #img3, #img4 {
+		height: 150px;
+		width: 250px;
+	}
+    
+    #one1, #one2, #one3, #one4, #one5 {
+        height: 300px;
+        width: 250px;
+    }
+    
+    #crone5, #crone6 {
+        height: 200px;
+        width: 130px;
+    }
+
+	.pic-one {
+		flex-direction: column;
+	}
+
+	.project-title {
+		font-size: 25px;
+	}
+}

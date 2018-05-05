@@ -1,0 +1,150 @@
+.projects-header-container {
+	width: 100%;
+	height: 100px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	justify-content: center;
+	align-items: center; 
+	background-color: #dfd9e2;
+}
+
+.projects-page-title {
+	font-family: Yellowtail;
+	font-size: 40px;
+	width: 25%;
+	margin: auto;
+	text-align: center; 
+}
+
+.projects-grid-row {
+	margin: auto;
+	display: flex;
+	width: 80%;
+	height: 300px;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.project-link {
+	margin-top: 100px;
+}
+
+.project-link-one {
+	margin-top: 100px;
+	background-image: url(/assets/cartoonman1.png);
+	background-size: 220px 250px;
+	background-repeat: no-repeat;
+	background-color: black;
+	border-radius: 50px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    
+}
+
+.project-link-two {
+	margin-top: 100px;
+	background-image: url(/assets/croneweb.jpeg);
+	background-size: 250px auto;
+	background-repeat: no-repeat;
+	background-color: black;
+	border-radius: 50px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.project-link-three {
+	margin-top: 100px;
+	background-image: url(/mysiteimages/annaweb-min.jpeg);
+	background-size: 250px 330px;
+	background-repeat: no-repeat;
+	background-color: black;
+	border-radius: 50px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.project-link-four {
+	margin-top: 100px;
+	background-image: url(/mysiteimages/Homepage-min.jpg);
+	background-size: 250px auto;
+	background-repeat: no-repeat;
+	background-color: black;
+	border-radius: 50px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.project-link-five {
+	margin-top: 100px;
+	background-image: url(/mysiteimages/LEtab.png);
+	background-size: 250px auto;
+	background-repeat: no-repeat;
+	background-color: black;
+	border-radius: 50px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.project-link-one:hover, .project-link-two:hover, .project-link-three:hover, .project-link-four:hover, .project-link-five:hover {
+-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.project-items {
+	padding-top: 15px;
+	height: 250px;
+	width: 250px;
+	border-radius: 50px;
+	box-shadow: 0 0 25px #444;
+}
+
+
+@media (max-width: 1000px) {
+	.projects-grid {
+		width: 100%;
+		justify-content: space-evenly;
+	}
+
+	.projects-list-container {
+	margin-top: 70px;
+	height: 300px;
+}
+}
+
+@media (max-width: 600px) {
+	.projects-header-container {
+		text-align: center;
+		height: 30px;
+	}
+	.projects-page-title {
+		font-size: 25px;
+		width: 100%;
+	}
+	.projects-grid-row {
+		padding-top: 300px;
+		flex-direction: column;
+		width: 100%;
+		justify-content: space-evenly;
+        margin-top: 230px;
+	}
+
+}
